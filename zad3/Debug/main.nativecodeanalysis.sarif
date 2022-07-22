@@ -1,0 +1,109 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00ABD1C0 -il C:\\Users\\DjapePC\\AppData\\Local\\Temp\\_CL_d348078dast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930133 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\main.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Fakultet\\II godina\\III semestar\\Objektno orjentisano programiranje 1\\K3\\Lab3\\zad3 -analyze:rulesetdirectory ;D:\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/vozilo.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ac2b77ff40a38e384db383db70bb2414"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/vozilo.h"
+          },
+          "hashes": {
+            "md5": "9a6019ba9c056f4b7e2f6daaa345626a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/put.h"
+          },
+          "hashes": {
+            "md5": "09cbe51a25f51cfd4e03361406703e99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/lista.h"
+          },
+          "hashes": {
+            "md5": "406df67235819daf501ebfa1f691b095"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/greska.h"
+          },
+          "hashes": {
+            "md5": "39fe60803bee92cb24bd8d80580f2629"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/tacka.h"
+          },
+          "hashes": {
+            "md5": "ffa1a019f8127d06b57a06bc478e63eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/tacka.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b9e869b8e61f8c52f8fbbaed66abe269"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/put.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9f173eda97ae1d842784a6d5936387b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad3/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8d87e01a1640fbc64823dcd3559c0828"
+          }
+        }
+      ]
+    }
+  ]
+}

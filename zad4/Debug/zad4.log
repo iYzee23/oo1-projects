@@ -1,0 +1,8 @@
+﻿  igrac.cpp
+D:\Fakultet\II godina\III semestar\Objektno orjentisano programiranje 1\K3\Lab3\zad4\igrac.cpp(6,21): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+  mec.cpp
+  privilegovani.cpp
+  tim.cpp
+  Generating Code...
+  zad4.vcxproj -> D:\Fakultet\II godina\III semestar\Objektno orjentisano programiranje 1\K3\Lab3\Debug\zad4.exe

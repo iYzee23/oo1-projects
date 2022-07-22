@@ -1,0 +1,153 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Mec::ishod' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Fakultet/II godina/III semestar/Objektno orjentisano programiranje 1/K3/Lab3/zad4/mec.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2,
+                  "endLine": 20,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mec@@QAE@PAVTim@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Mec::ishod"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00ABD1C0 -il C:\\Users\\DjapePC\\AppData\\Local\\Temp\\_CL_1777dbdcast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930133 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\main.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Fakultet\\II godina\\III semestar\\Objektno orjentisano programiranje 1\\K3\\Lab3\\zad4 -analyze:rulesetdirectory ;D:\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Fakultet/II godina/III semestar/Objektno orjentisano programiranje 1/K3/Lab3/zad4/tim.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a0b066d89057b811d1e563b9baa39d74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/tim.h"
+          },
+          "hashes": {
+            "md5": "391daa57dbe960af3e5cf6bc6c3eb26e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/igrac.h"
+          },
+          "hashes": {
+            "md5": "a9eabfa923b838c2392e98743d685f54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/greska.h"
+          },
+          "hashes": {
+            "md5": "75199d8e6dde15deeb893207999f41a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/privilegovani.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b644d4dddd0a7477844e8d31b8f2f064"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/privilegovani.h"
+          },
+          "hashes": {
+            "md5": "31dba1b8ffe3268f23a50a08adc9cc4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Fakultet/II godina/III semestar/Objektno orjentisano programiranje 1/K3/Lab3/zad4/mec.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fa8fb5b72dc60b2efa5a2adffceb310a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Fakultet/II godina/III semestar/Objektno orjentisano programiranje 1/K3/Lab3/zad4/mec.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0fe69c07265bcc451b83577ffe3f1bd5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/par.h"
+          },
+          "hashes": {
+            "md5": "d2f0b1e7aa3bb65cba676a89a772a4ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/fakultet/ii godina/iii semestar/objektno orjentisano programiranje 1/k3/lab3/zad4/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "326d20e08b49069759182bd0c2d43f84"
+          }
+        }
+      ]
+    }
+  ]
+}
